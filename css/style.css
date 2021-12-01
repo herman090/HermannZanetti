@@ -10,33 +10,10 @@ body {
   background: linear-gradient(to bottom, white, #f6d7a7);
 }
 
-.principal__img {
-  max-width: 100%;
-}
-
-.principal__texto1 {
-  color: black;
-  margin: auto;
-  text-align: center;
-}
-
 header {
   background-color: white;
   padding: 0.5rem 0;
-  box-shadow: 0 0.5rem 1 rem rgba(0, 0, 0, 1);
-}
-
-
-.intro__section {
-  padding: 2rem 0;
-}
-
-.texto2 {
-  text-align: center;
-}
-.video-novias {
-  text-align: center;
-  padding-bottom: 5rem;
+  box-shadow: 0 0.5rem 1 rem black;
 }
 
 .footer {
@@ -70,9 +47,6 @@ header {
 .footer-bottom__copyright a:hover {
   color: red;
 }
-/*hasta aca estilos de la pagina principal con header,navBar,footer*/
-
-/*esto es el style del icono de wsp*/
 
 .btn-wsp {
   position: fixed;
@@ -81,7 +55,6 @@ header {
   line-height: 55px;
   bottom: 30px;
   right: 30px;
-
   color: green;
   border-radius: 100px;
   text-align: center;
@@ -90,15 +63,36 @@ header {
 }
 
 .btn-wsp:hover {
-  color: rgb(8, 204, 25);
+  color: #08cc19;
   background: greenyellow;
   z-index: 1;
 }
 
-/*esto es el style de la seccion novias,madrinas,fiesta*/
+.principal__img {
+  max-width: 100%;
+}
+
+.principal__texto1 {
+  color: black;
+  margin: auto;
+  text-align: center;
+}
+
+.intro__section {
+  padding: 2rem 0;
+}
+
+.texto2 {
+  text-align: center;
+}
+
+.video-novias {
+  text-align: center;
+  padding-bottom: 5rem;
+}
 
 #galeria img {
-  width: 100% ;
+  width: 100%;
   height: 550px;
 }
 
@@ -111,55 +105,6 @@ header {
   transition: 1.9s ease;
 }
 
-/*este es el style de contacto*/
-
-.formulario {
-  background-color: #f6eabe;
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-}
-
-form {
-  width: 450;
-  background: rgba(0, 0, 0, 0.4);
-  padding: 20px 30px;
-  margin-top: 20px;
-  border-radius: 7px;
-  border: solid #f6d7a7;
-}
-
-input,
-textarea {
-  width: 100%;
-  margin-bottom: 20px;
-  padding: 7px;
-  font-size: 17px;
-  border: none;
-}
-
-
-.button {
-  background: #f6d7a7;
-  color: black;
-  padding: 10px;
-}
-.button:hover {
-  cursor: pointer;
-}
-
-p {
-  margin-bottom: 5rem;
-  width: auto;
-  color: black;
-  margin: auto;
-  margin-top: 30px;
-  line-height: 2rem;
-  text-align: center;
-  justify-content: center;
-}
-
-/*estilos correspondientes a lar tarjetas de seccion fiesta*/
-
 .container2 {
   width: 100%;
   max-width: 1200px;
@@ -170,6 +115,7 @@ p {
   margin: auto;
   margin-bottom: 12rem;
 }
+
 .tittle {
   text-align: center;
   font-size: 40px;
@@ -177,6 +123,7 @@ p {
   margin-top: 100px;
   font-weight: 100;
 }
+
 .container2 .card {
   width: 330px;
   height: auto;
@@ -213,3 +160,50 @@ p {
   text-decoration: none;
   color: cadetblue;
 }
+
+.formulario {
+  background-color: #f6eabe;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+form {
+  width: 450;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: solid #f6d7a7;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 17px;
+  border: none;
+}
+
+.button {
+  background: #f6d7a7;
+  color: black;
+  padding: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 5rem;
+  width: auto;
+  color: black;
+  margin: auto;
+  margin-top: 30px;
+  line-height: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */

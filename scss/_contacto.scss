@@ -1,0 +1,44 @@
+.formulario {
+    background-color: #f6eabe;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+  }
+  
+  form {
+    width: 450;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    margin-top: 20px;
+    border-radius: 7px;
+    border: solid #f6d7a7;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  
+  .button {
+    background: #f6d7a7;
+    color: black;
+    padding: 10px;
+  }
+  .button:hover {
+    cursor: pointer;
+  }
+  
+  p {
+    margin-bottom: 5rem;
+    width: auto;
+    color: black;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 2rem;
+    text-align: center;
+    justify-content: center;
+  }

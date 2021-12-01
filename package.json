@@ -1,0 +1,19 @@
+{
+  "name": "rgzaltamoda",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000H\u0000e\u0000r\u0000m\u0000a\u0000n\u0000n\u0000Z\u0000a\u0000n\u0000e\u0000t\u0000t\u0000i\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herman090/HermannZanetti.git"
+  },
+  "author": "HermannZanetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herman090/HermannZanetti/issues"
+  },
+  "homepage": "https://github.com/herman090/HermannZanetti#readme"
+}
