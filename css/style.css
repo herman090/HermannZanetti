@@ -24,24 +24,6 @@ body header {
   padding: 0.5rem 0;
   box-shadow: 0 0.5rem 1 rem black;
 }
-body header .btn-wsp {
-  position: fixed;
-  width: 55px;
-  height: 55px;
-  line-height: 55px;
-  bottom: 30px;
-  right: 30px;
-  color: green;
-  border-radius: 100px;
-  text-align: center;
-  font-size: 40px;
-  z-index: 100;
-}
-body header .btn-wsp:hover {
-  color: #08cc19;
-  background: greenyellow;
-  z-index: 1;
-}
 body footer {
   padding-top: 1rem;
   background-color: black;
@@ -67,6 +49,26 @@ body footer .footer-bottom__copyright a {
 }
 body footer .footer-bottom__copyright a:hover {
   color: red;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 30px;
+  color: green;
+  border-radius: 100px;
+  text-align: center;
+  font-size: 40px;
+  z-index: 100;
+}
+
+.btn-wsp:hover {
+  color: #08cc19;
+  background: greenyellow;
+  z-index: 1;
 }
 
 .principal__texto1 {
