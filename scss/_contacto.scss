@@ -1,18 +1,14 @@
-.formulario {
-    background-color: #f6eabe;
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-  }
-  
-  form {
-    width: 450;
-    background: rgba(0, 0, 0, 0.4);
-    padding: 20px 30px;
-    margin-top: 20px;
-    border-radius: 7px;
-    border: solid #f6d7a7;
-  }
-  
+form {
+  width: 450;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 30px;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: solid #f6d7a7;
+  background-color: #f6eabe;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+
   input,
   textarea {
     width: 100%;
@@ -21,8 +17,6 @@
     font-size: 17px;
     border: none;
   }
-  
-  
   .button {
     background: #f6d7a7;
     color: black;
@@ -31,14 +25,4 @@
   .button:hover {
     cursor: pointer;
   }
-  
-  p {
-    margin-bottom: 5rem;
-    width: auto;
-    color: black;
-    margin: auto;
-    margin-top: 30px;
-    line-height: 2rem;
-    text-align: center;
-    justify-content: center;
-  }
+}
