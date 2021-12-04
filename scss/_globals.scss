@@ -25,38 +25,7 @@ body {
 
     
   }
-  footer {
-    padding-top: 1rem;
-    background-color: $footer-color;
-    color: white;
-
-    .footer-sm__icons {
-      text-align: center;
-      padding: 1.5rem 0;
-
-      a {
-        i {
-          font-size: 2rem;
-          margin-left: 2rem;
-          color: white;
-        
-        }
-      }
-    }
-
-    .footer-bottom__copyright {
-      text-align: center;
-      color: grey;
-      font-weight: 400;
-      a {
-        color: grey;
-        text-decoration: none;
-      }
-      a:hover {
-        color: red;
-      }
-    }
-  }
+  
 }
 .btn-wsp {
   position: fixed;

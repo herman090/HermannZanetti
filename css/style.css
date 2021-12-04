@@ -24,32 +24,6 @@ body header {
   padding: 0.5rem 0;
   box-shadow: 0 0.5rem 1 rem black;
 }
-body footer {
-  padding-top: 1rem;
-  background-color: black;
-  color: white;
-}
-body footer .footer-sm__icons {
-  text-align: center;
-  padding: 1.5rem 0;
-}
-body footer .footer-sm__icons a i {
-  font-size: 2rem;
-  margin-left: 2rem;
-  color: white;
-}
-body footer .footer-bottom__copyright {
-  text-align: center;
-  color: grey;
-  font-weight: 400;
-}
-body footer .footer-bottom__copyright a {
-  color: grey;
-  text-decoration: none;
-}
-body footer .footer-bottom__copyright a:hover {
-  color: red;
-}
 
 .btn-wsp {
   position: fixed;
@@ -69,6 +43,41 @@ body footer .footer-bottom__copyright a:hover {
   color: #08cc19;
   background: greenyellow;
   z-index: 1;
+}
+
+.danger {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid blue;
+  text-transform: uppercase;
+}
+
+footer {
+  padding-top: 1rem;
+  background-color: black;
+  color: white;
+}
+footer .footer-sm__icons {
+  text-align: center;
+  padding: 1.5rem 0;
+}
+footer .footer-sm__icons a i {
+  font-size: 2rem;
+  margin-left: 2rem;
+  color: white;
+}
+footer .footer-bottom__copyright {
+  text-align: center;
+  color: grey;
+  font-weight: 400;
+}
+footer .footer-bottom__copyright a {
+  color: grey;
+  text-decoration: none;
+}
+footer .footer-bottom__copyright a:hover {
+  color: red;
 }
 
 .principal__texto1 {
@@ -166,12 +175,15 @@ form textarea {
   font-size: 17px;
   border: none;
 }
-form .button {
+form .button, form .button-clear {
   background: #f6d7a7;
   color: black;
   padding: 10px;
 }
-form .button:hover {
+form .button-clear {
+  background-color: #7e6e56;
+}
+form .button:hover, form .button-clear:hover {
   cursor: pointer;
 }
 
