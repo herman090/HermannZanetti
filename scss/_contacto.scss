@@ -22,7 +22,7 @@ form {
     color: black;
     padding: 10px;
   }
-  .button-clear  {
+  .button-clear {
     @extend .button;
     background-color: #7e6e56;
   }
@@ -30,6 +30,3 @@ form {
     cursor: pointer;
   }
 }
-
-
-
