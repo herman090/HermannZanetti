@@ -24,8 +24,13 @@ body header {
   padding: 0.5rem 0;
   box-shadow: 0 0.5rem 1 rem black;
 }
+body header .logo {
+  width: 14rem;
+  height: 6rem;
+}
 
 .btn-wsp {
+  animation: bounce 2s ease-in;
   position: fixed;
   width: 55px;
   height: 55px;
@@ -46,10 +51,10 @@ body header {
 }
 
 .danger {
-  color: white;
-  font-size: 25px;
+  color: greenyellow;
+  font-size: 30px;
   font-weight: bold;
-  border: 1px solid blue;
+  border: 1px solid red;
   text-transform: uppercase;
 }
 

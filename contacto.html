@@ -1,91 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RGZAltamoda</title>
     <!-- Font Awesome Cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
     <!-- Google Fonts Cdn -->
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- Bootstrap Cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- link de carpeta css -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- animate Cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  </head>
+</head>
 
 <body>
-  <header>
-    <div>
-      <a href="https://api.whatsapp.com/send?phone=+5493516066789" class="btn-wsp"><i class="fab fa-whatsapp"></i></a">
-    </div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-withe">
-        <div class="container-sm">
-          <a class="navbar-brand" href="#"><a href="./index.html"><img src="./img/LogoMakr-0WdLz5.png" alt=""
-                width="280" height="120"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link" aria-current="page" href=" ./index.html">INICIO</a></li>
-                <li class="nav-item"><a class="nav-link" href=" ./novias.html">NOVIAS</a></li>
-                <li class="nav-item"><a class="nav-link" href=" ./fiesta.html">FIESTA</a></li>
-                <li class="nav-item"><a class="nav-link" href=" ./madrinas.html">MADRINAS</a></li>
-                <li class="nav-item"><a class="nav-link" href=" ./contacto.html">CONTACTO</a></li>
-
-              </ul>
+    <header>
+        <nav class="animate__animated animate__zoomIn navbar navbar-expand-lg navbar-light bg-withe">
+            <div class="container-sm">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/LogoMakr-0WdLz5.png" alt="RGZAltamoda"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href=" ./index.html">INICIO</a></li>
+                        <li class="nav-item"><a class="nav-link" href=" ./novias.html">NOVIAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href=" ./fiesta.html">FIESTA</a></li>
+                        <li class="nav-item"><a class="nav-link" href=" ./madrinas.html">MADRINAS</a></li>
+                        <li class="nav-item"><a class="nav-link" href=" ./contacto.html">CONTACTO</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="container pb-5">
+        <h1 class="text-center">CONTACTO</h1>
+        <form class="" action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escriba aqui su nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" placeholder="Escriba aqui su apellido" id="apellido">
+            <label for="e-mail">E-mail</label>
+            <input type="text" name="e-mail" placeholder="Escriba aqui su direccion de correo" id="e-mail">
+            <span>Acepta los terminos y condiciones
+            <input type="checkbox" name="acepta" value="1" />
+            </span>
+            <label for="mensaje">Busco vestido de:</label>
+            <select name="vestidos" id="vestidos">
+                <option>Novias</option>
+                <option>Madrinas</option>
+                <option>Fiesta</option>
+            </select>
+            <textarea name="mensajes" id="mensaje" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
+            <input type="submit" value="Enviar" class="button">
+            <input type="reset" value="Limpiar formulario" class="button-clear">
+        </form>
+    </section>
+    <footer class="footer container-fluid">
+        <div class="footer-sm__icons">
+            <span>Buscanos en las redes</span>
+            <a href="https://www.facebook.com/rzgaltamoda"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/rzg.altamoda/"><i class="fab fa-instagram-square"></i></a>
+        </div>
+        <div class="row footer-bottom__copyright">
+            <div class="col">
+                &copy;Copyright 2021 <a href="#">RGZAltamoda</a> | Creada por HermannZanetti
             </div>
         </div>
-      </nav>
-  </header>
-  <section class="container pb-5">
-    <form class="" action="">
-      <label for="nombre">Nombre</label>
-      <input type="text" name="nombre" id="nombre" placeholder="Escriba aqui su nombre">
-      <label for="apellido">Apellido</label>
-      <input type="text" name="apellido" placeholder="Escriba aqui su apellido" id="apellido">
-      <label for="e-mail">E-mail</label>
-      <input type="text" name="e-mail" placeholder="Escriba aqui su direccion de correo" id="e-mail">
-      <span>Acepta los terminos y condiciones
-        <input type="checkbox" name="acepta" value="1" />
-      </span>
-      <label for="mensaje">Busco vestido de:</label>
-      <select name="vestidos" id="vestidos">
-        <option>Novias</option>
-        <option>Madrinas</option>
-        <option>Fiesta</option>
-      </select>
-      <textarea name="mensajes" id="mensaje" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
-      <input type="submit" value="Enviar" class="button">
-      <input type="reset" value="Limpiar formulario" class="button-clear">
-    </form>
-  </section>
-  <footer class="footer container-fluid">
-    <div class="footer-sm__icons">
-      <span>Buscanos en las redes</span>
-      <a href="https://www.facebook.com/rzgaltamoda"><i class="fab fa-facebook-square"></i></a>
-      <a href="https://www.instagram.com/rzg.altamoda/"><i class="fab fa-instagram-square"></i></a>
-    </div>
-    <div class="row footer-bottom__copyright">
-      <div class="col">
-        &copy;Copyright 2021 <a href="#">RGZAltamoda</a> | Creada por HermannZanetti
-      </div>
-    </div>
-  </footer>
-  <!-- Bootstrap Js Cdn -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
+    </footer>
+    <!-- Bootstrap Js Cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 
