@@ -22,7 +22,6 @@ body p {
 }
 body header {
   background-color: white;
-  padding: 0.5rem 0;
   box-shadow: 0 0.5rem 1 rem black;
 }
 body header .log {
@@ -90,10 +89,6 @@ footer .footer-bottom__copyright a:hover {
   color: black;
   margin: auto;
   text-align: center;
-}
-
-.intro__section {
-  padding: 2rem 0;
 }
 
 .texto2 {
@@ -180,6 +175,7 @@ form textarea {
   padding: 7px;
   font-size: 17px;
   border: none;
+  resize: none;
 }
 form .button, form .button-clear {
   background: #f6d7a7;
