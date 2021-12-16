@@ -30,7 +30,7 @@ body header {
   background-color: white;
   box-shadow: 0 0.5rem 1 rem black;
 }
-body header .log {
+body header .logo {
   width: 14rem;
   height: 6rem;
 }
