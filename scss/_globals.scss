@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-
 }
 
 body {
@@ -22,9 +21,8 @@ body {
         font-size: 21px;
         @media (max-width: 576px) {
             font-size: 16px;
-            line-height:1,2rem;
+            line-height: 1, 2rem;
         }
-
     }
     header {
         background-color: $nav-color;
